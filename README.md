@@ -30,15 +30,15 @@
 (Right click and 'Save link as...')
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20Firmware-blue?style=for-the-badge&logo=download&logoColor=white "Download RusEFI Firmware")]()
+[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20Firmware-blue?style=for-the-badge&logo=download&logoColor=white "Download RusEFI Firmware")](https://github.com/user-attachments/files/19044275/rusefi.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20TunerStudio%20INI-green?style=for-the-badge&logo=download&logoColor=white "Download RusEFI TunerStudio INI")]()
+[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20TunerStudio%20INI-green?style=for-the-badge&logo=download&logoColor=white "Download RusEFI TunerStudio INI")](https://github.com/user-attachments/files/19044270/rusefi_apex.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20Console-purple?style=for-the-badge&logo=download&logoColor=white "Download RusEFI Console")]()
+[![Download zip](https://custom-icon-badges.demolab.com/badge/-RusEFI%20Console-purple?style=for-the-badge&logo=download&logoColor=white "Download RusEFI Console")](https://drive.google.com/file/d/1GC37ijTprq1gyn9G_KEFeLXi3cPBaATD/view?usp=drive_link)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 ## FOME Firmware
@@ -91,12 +91,151 @@
 | C7 | | COIL 7 | | F7 | | ANALOG INPUT 9 (0-5V) |
 | C8 | | COIL 8 | | F8 | | GND |
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/754b5384-3ff9-43f3-93fb-265ce7787895" alt="sticker" width="50%">
-</div>
-
 ## PCB Layout
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/073cc388-bc1d-4599-940b-7406b2930105" alt="sticker" width="95%">
+  <img src="https://github.com/user-attachments/assets/6b73b7d4-867f-4398-a5b6-4b52e0a0de97" alt="naklejka" width="100%">
+</div>
+
+## WIDEBAND PINOUT
+
+<table>
+  <tr>
+    <td>
+      <div align="left">
+        <img src="https://github.com/user-attachments/assets/b496d4ea-cc52-464d-8e90-a2e83be1d03b" alt="naklejka" width="70%">
+      </div>
+    </td>
+    <td align="center">
+      <strong>WIDEBAND 1:</strong><br><br>
+      1 - LSU PIN 4<br>
+      2 - LSU PIN 6<br>
+      3 - LSU PIN 2<br>
+      4 - LSU PIN 5<br>
+      5 - LSU PIN 1<br>
+      <br><strong>LSU PIN 3 - CONNECT TO SWITCHED +12V WITH 5A FUSE</strong>
+    </td>
+    <td align="center">
+      <strong>WIDEBAND 2:</strong><br><br>
+      1 - LSU PIN 4<br>
+      2 - LSU PIN 6<br>
+      3 - LSU PIN 2<br>
+      4 - LSU PIN 5<br>
+      5 - LSU PIN 1<br>
+      <br><strong>LSU PIN 3 - CONNECT TO SWITCHED +12V WITH 5A FUSE</strong>
+    </td>
+  </tr>
+</table>
+
+## LSU 4.9 CONNECTOR
+
+<div align="left">
+        <img src="https://github.com/user-attachments/assets/5913830f-605d-4a51-9635-8c93a41e3664" alt="naklejka" width="55%">
+      </div>
+
+## EGT/ANALOG/KNOCK/USB/DIGITAL/AUX CONNECTORS
+
+<table>
+  <tr>
+    <td>
+      <div align="left">
+        <img src="https://github.com/user-attachments/assets/8e5822b1-3525-4df8-8b20-5a3d4dfbc909" alt="VR" width="105%">
+      </div>
+    </td>
+    <td align="center">
+      <strong>EGT:</strong><br><br>
+      1 - K+<br>
+      2 - K-<br>
+      3 - K1+<br>
+      4 - K1-
+    </td>
+    <td align="center">
+      <strong>ANALOG IN:</strong><br><br>
+      1 - ANALOG INPUT 10<br>
+      2 - ANALOG INPUT 11<br>
+      3 - ANALOG INPUT 12<br>
+      4 - NOT USED
+    </td>
+    <td align="center">
+      <strong>KNOCK:</strong><br><br>
+      1 - KNOCK SENSOR 1<br>
+      2 - KNOCK SENSOR 2<br>
+      3 - KNOCK AUDIO OUTPUT 1<br>
+      4 - KNOCK AUDIO OUTPUT 2
+    </td>
+    <td align="center">
+      <strong>USB:</strong><br><br>
+      1 - VBUS<br>
+      2 - D-<br>
+      3 - D+<br>
+      4 - GND
+    </td>
+    <td align="center">
+      <strong>DIGITAL IN:</strong><br><br>
+      1 - DIGITAL IN 3<br>
+      2 - DIGITAL IN 4<br>
+      3 - DIGITAL IN 5<br>
+      4 - DIGITAL IN 6
+    </td>
+    <td align="center">
+      <strong>DIGITAL IN/AUX:</strong><br><br>
+      1 - DIGITAL IN 7<br>
+      2 - DIGITAL IN 8<br>
+      3 - AUX 7<br>
+      4 - AUX 8
+    </td>
+  </tr>
+</table>
+
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>SPI5 CONNECTOR & VR INPUTS CONNECTOR</h2>
+
+<table>
+  <tr>
+    <!-- SPI5 -->
+    <td>
+      <img src="https://github.com/user-attachments/assets/ea6489d2-817d-4648-8d05-b27e5785b4d7" alt="SPI5" width="40%">
+    </td>
+    <td class="desc">
+      <strong>SPI5:</strong><br><br>
+      1 - SPI5 SCK<br>
+      2 - SPI5 MISO<br>
+      3 - SPI5 MOSI<br>
+      4 - SPI5 CS1 (PF10)<br>
+      5 - SPI5 CS2 (PF5)
+    </td>
+  </tr>
+  <tr>
+    <!-- VR -->
+    <td>
+      <img src="https://github.com/user-attachments/assets/9d346c36-0cd5-4926-82a2-080b6bc4a592" alt="VR" width="40%">
+    </td>
+    <td class="desc">
+      <strong>VR:</strong><br><br>
+      1 - VR3-<br>
+      2 - VR3+<br>
+      3 - VR4-<br>
+      4 - VR4+
+    </td>
+  </tr>
+</table>
+
+
+## OBUDOWA
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/754b5384-3ff9-43f3-93fb-265ce7787895" alt="naklejka" width="55%">
+</div>
+
+## PCB
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4fd3904c-2e51-4152-aae9-a1798210707b" alt="pcb" width="55%">
 </div>
